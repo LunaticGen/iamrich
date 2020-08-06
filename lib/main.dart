@@ -7,12 +7,11 @@ void main() {
         backgroundColor: Colors.blueGrey,
         appBar: AppBar(
           title: Text("I am Rich"),
-          backgroundColor: Colors.deepOrange,
+          backgroundColor: Colors.blueGrey[900],
         ),
         body: Center(
           child: Image(
-            image:
-                NetworkImage('https://www.w3schools.com/w3css/img_lights.jpg'),
+            image: AssetImage('Images/Gem.png'),
           ),
         ),
       ),
